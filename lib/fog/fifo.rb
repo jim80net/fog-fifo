@@ -7,7 +7,7 @@ module Fog
   module Fifo
     extend Fog::Provider
 
-    service(:compute, 'fifo/compute', 'Compute')
+    service(:compute, 'Compute')
 
   end
 end
