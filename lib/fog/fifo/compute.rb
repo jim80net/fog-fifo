@@ -108,7 +108,7 @@ module Fog
 
           @fifo_uri = ::URI.parse(@fifo_url)
 
-          @connection = Fog::Connection.new(
+          @connection = Fog::Core::Connection.new(
             @fifo_url,
             @persistent,
             @connection_options
